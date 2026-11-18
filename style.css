@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(3, 3, 53);
+    justify-content: space-between;
+    color: #fff;
+   
+  
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #183666; ;
+}
+
+.links a:hover.links a:focus ,.links a.active {
+  background-color: #0284c7;
+  color: white;
+}
+.links a{
+    
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-left: 20px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+
+header{
+    display: block  ;
+    text-align: center;
+    padding : 30px;
+    font-weight: bold;
+
+    
+    color: #fff;
+}
+.main-box{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1e293b;
+   padding: 20px;
+   border-radius: 12px;
+  
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.main-box h2{
+    margin-bottom: 15px;
+}
+.main-box p{
+    margin-bottom: 15px;
+    
+}
+.image-style{
+    margin-top: 23px;
+    width: 600px;
+    border-radius: 17px;
+}
+.btn{
+    display: inline-block;
+    align-items: center;
+    background-color: #0965f0;
+    border-radius: 17px;
+    color: #fff;
+    padding: 15px;
+    font-size:20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ft-btn{
+    text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #e2e8f0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card.danger {
+  border-top: 4px solid #ef4444;
+}
+
+.card.danger h3 {
+  color: #f87171;
+  margin-top: 0;
+}
+
+.card.safe {
+  border-top: 4px solid #10b981;
+}
+
+.card.safe h3 {
+  color: #34d399;
+  margin-top: 0;
+}
+
+.card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.table-box {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+th {
+  background-color: #0f172a;
+  color: #38bdf8;
+}
+
+.text-green {
+  color: #34d399;
+  font-weight: bold;
+}
+
+.text-red {
+  color: #f87171;
+}
+/* Murojaat qilish sahifasi stillari */
+.contact-box {
+    max-width: 550px;
+    margin: 20px auto;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 4px solid #0284c7;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #cbd5e1;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.submit-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+  margin-top: 50px;
+  border-top: 1px solid #1e293b;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murojaat qilish - KiberXavfsizlik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> 🔒 KiberXavfsizlik 🛡️ </div>
+        <div class="links">
+            <a href="index.html">Kiberxavfsizlik haqida</a>
+            <a href="tuzoqlar.html">Tuzoqlar</a>
+            <a href="./turlari.html">Havolani tekshirish</a>
+            <a href="./firibgar.html">Himoya qoidalari</a>
+            <a href="./murojat.html" class="active">Murojaat qilish</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Biz Bilan Bog‘laning</h1>
+        <p>Shubhali havolaga duch keldingizmi yoki savolingiz bormi? Bizga yozing!</p>
+    </header>
+
+    <main class="container">
+        <div class="contact-box">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="name">Ismingiz</label>
+                    <input type="text" id="name" name="name" placeholder="Ismingizni kiriting" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="contact">Telefon raqam yoki Telegram username</label>
+                    <input type="text" id="contact" name="contact" placeholder="+998 90 123 45 67 yoki @username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="topic">Murojaat turi</label>
+                    <select id="topic" name="topic">
+                        <option value="havola">Shubhali havolani tekshirtirish</option>
+                        <option value="firibgar">Firibgarlik holati haqida xabar</option>
+                        <option value="savol">Kiberxavfsizlik bo‘yicha savol</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Xabaringiz</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Xabaringizni yoki shubhali havolani shu yerga yozing..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn submit-btn">Murojaatni yuborish ✉️</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Loyiha muallifi: Bahriyev Elnur | IT Live Frontend o‘quvchisi</p>
+    </footer>
+</body>
+</html>
